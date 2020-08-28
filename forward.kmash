@@ -1,0 +1,14 @@
+$TTL 300
+@   IN  SOA     bastion.kmash.com. root.kmash.com (
+                2011071001  ;Serial
+                3600        ;Refresh
+                1800        ;Retry
+                604800      ;Expire
+                300         ;Minimum TTL
+)
+@       IN  NS          bastion.kmash.com.
+@       IN  A           10.1.11.247
+@       IN  A           10.65.176.35
+@       IN  A           192.168.1.103
+bastion       IN  A   10.1.11.247
+kmash         IN  A   10.65.176.35
